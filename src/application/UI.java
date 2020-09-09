@@ -53,6 +53,16 @@ public class UI {
 	}
 	
 	public static void printMatch(ChessMatch chessMatch, List<ChessPiece> captured) {
+		
+		System.out.println("======= TRADUCAO PT-BR =======");
+		System.out.println("P === PEAO");
+		System.out.println("R === TORRE");
+		System.out.println("N === CAVALO");
+		System.out.println("B === BISPO");
+		System.out.println("Q === RAINHA");
+		System.out.println("K === REI");
+		System.out.println("==============================");
+		
 		printBoard(chessMatch.getPieces());
 		System.out.println();
 		printCapturedPieces(captured);
